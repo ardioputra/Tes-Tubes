@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+.main{
+  background-color: #00cec9;
+  background-size: cover;
+  padding-top:100px;
+  padding-bottom:100px;
+  color: white;
+  border-radius: 6px;
+}
+
+.top-wrap {
+  width:auto;
+  padding: 0 15px;
+  margin: 0 auto;
+  font-family: "Lucida Grande";
+  text-align: center;
+}
+
+.top-wrap span{
+  color: #d63031;
+}
+
+.main h1{
+  opacity:0.9;
+  font-size:45px;
+  margin-bottom:10px;
+}
+
+.main p{
+  opacity:0.9;
+  margin-bottom:3px;
+}
+
+.top-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align:center;
+}
+
+.title {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #00cec9;
+}
+
+.title h2 {
+  font-weight: bold;
+  border-bottom: 1px solid #00cec9;
+}
+
+
+.destination {
+  float: left;
+  width: 25%;
+}
+
+.dest-icon{
+  position:relative;
+
+}
+
+.dest-icon img{
+  box-shadow: 0 6px #eb2f06;
+  opacity: 0.8;
+}
+
+.dest-icon:hover img{
+  opacity: 1;
+}
+
+.dest-icon:active img{
+position: relative;
+  opacity: 1;
+  cursor: pointer;
+  box-shadow: None;
+  top: 6px;
+}
+
+.dest-icon p{
+  position:absolute;
+  top:110px;
+  width:100%;
+  font-size: 48px;
+  color:#eb2f06;
+  font-weight:bold;
+}
+
+.txt{
+  width:80%;
+  display:inline-block;
+  margin-top:20px;
+  font-size:15px;
+  color:#b3aeb5;
+}
